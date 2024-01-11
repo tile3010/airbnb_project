@@ -1,7 +1,7 @@
 
 import Detail from '../../Components/Detail/detail'
 import { Container } from '@mui/material'
-import { useCommentRoom, useLocation, useRoomDetail } from './DetailRoomLogic'
+import { useCommentRoom, useLocation, useRoomDetail } from './DetailRooomLogic'
 import {ILocationItem } from '../../constant/constant'
 
 function DetailRoom() {

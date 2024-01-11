@@ -11,10 +11,10 @@ import Modal from '@mui/material/Modal';
 import Avatar from '@mui/material/Avatar';
 import TextField from '@mui/material/TextField';
 //component
-import AddRoom from '../Admin-add-room-popup/AddRoom';
+import AddRoom from '../Admin-addroom-popup/AddRoom';
 //modal
-import DetailRoom from '../Admin-add-room-popup/DetailRoom';
-import RoomUpdateModal from '../Admin-add-room-popup/RoomUpdateModal';
+import DetailRoom from '../Admin-addroom-popup/DetailRoom';
+import RoomUpdateModal from '../Admin-addroom-popup/RoomUpdateModal';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppDispatch, RootState } from '../../redux/store';
 import { getRoomByPhanTrang } from '../../redux/Admin-slice/AdminRoomSlice';

@@ -14,7 +14,7 @@ import { useDispatch, useSelector } from 'react-redux';
 //store
 import { RootState, AppDispatch } from '../../redux/store'
 import { getCurrentCustomerById, getCurrentBookedRoomById } from '../../redux/Current-detail/currentDetailManage'
-import BookedRoomModal from '../Admin-booked-room-popup/BookedRoomModal';
+import BookedRoomModal from '../Admin-bookedroom-popup/BookRoomModal';
 import { getListBookedRoom } from '../../redux/Admin-slice/AdminBookingSlice'
 import { axiosInterceptorWithCybertoken } from '../../services/services'
 import swal from 'sweetalert';

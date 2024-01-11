@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { getLocal } from '../../utils/utils'
 import { ACCESS_USER_ID } from '../../constant/constant'
 import { useDispatch, useSelector } from 'react-redux';
-import { getProfileData } from '../../redux/user-slice/UserSlice'
+import { getProfileData } from '../../redux/User-slice/UserSlice'
 import { AppDispatch, RootState } from '../../redux/store'
 import { getRoomByUserId } from '../../redux/Detail-slice/DetailSlice';
 

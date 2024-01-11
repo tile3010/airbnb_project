@@ -28,7 +28,7 @@ function Register() {
   const navigate = useNavigate()
   const [isValid, setValid] = useState(true)
   const [dateValue, setDateValue] = useState<Dayjs | null>(null);
-  const [genderValue, setGender] = useState<boolean | string>();
+  const [genderValue, setGender] = useState<boolean | string>("");
   const [open, setOpen] = useState(false);
   const handleChange = (event: SelectChangeEvent<typeof genderValue>) => {
     setGender(event.target.value);
