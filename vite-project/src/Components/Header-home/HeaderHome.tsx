@@ -24,7 +24,7 @@ import { useLoginRenderAva } from './headerHomeLogic'
 import { RootState } from '../../redux/store'
 import { setDefaultProfile } from '../../redux/User-slice/UserSlice'
 //static img
-import AirbnbLogo from '../../assets/Image/Airbnb_logo.png'
+import AirbnbLogo from '../../assets/img/Airbnb_logo.png';
 
 const style = {
     position: 'absolute',

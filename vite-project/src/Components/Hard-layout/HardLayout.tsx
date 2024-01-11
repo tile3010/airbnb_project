@@ -5,10 +5,10 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 //static file img
-import homeOcean from '../../assets/Image/home-ocean.jpg'
-import dogBed from '../../assets/Image/dog-on-bed-photopin-740w.jpg'
-import maxRes from '../../assets/Image/maxresdefault.jpg'
-import unique from '../../assets/Image/unique.jpg'
+import homeOcean from '../../assets/img/home-ocean.jpg'
+import dogBed from '../../assets/img/dog-on-bed-photopin-740w.jpg'
+import maxRes from '../../assets/img/maxresdefault.jpg'
+import unique from '../../assets/img/unique.jpg'
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',

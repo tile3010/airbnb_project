@@ -31,8 +31,8 @@ type TProps = {
 export default function BasicModal({ children, value, setValue }: TProps) {
     const [open, setOpen] = React.useState(false);
     const [list, setList] = React.useState<ILocationItem[]>([]);
-    const stateData = useSelector((state: RootState) => state.sliceLocation.inspectOfSearchPage)
-    const stateDataLocation = useGetInspectOfSearchPage()
+    const stateData = useSelector((state: RootState) => state.sliceLocation.inspectOfSearchPage)??[]
+    const stateDataLocation = useGetInspectOfSearchPage()// caanf xem xet lai, choox g goi data hay copmbonent/ cho nay goi data thoi dung ko a/ uh, a ddang thay e ddang xuw lys data choox nayf
     const listData = (stateData.length > 0 ? [...stateData] : [...stateDataLocation])
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);

@@ -7,7 +7,7 @@ const useGetInspectOfSearchPage = ()=>{
     useEffect(() => {
         dispatch(getInspectOfSearchPage())
     }, [])
-    const mainState = useSelector((state: RootState) => state.sliceLocation.inspectOfSearchPage)
+    const mainState = useSelector((state: RootState) => state.sliceLocation.inspectOfSearchPage)??[]
     return mainState
 }
 
